@@ -8,7 +8,7 @@ added in the last section of the Markdown template.
 """
 
 __author__ = ["Loïc Reynier <loic@loicreynier.fr>"]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 import os
 import sys
@@ -71,17 +71,17 @@ def make_readme() -> None:
     )
 
     list_ = equation_list(
-        os.getcwd() + os.path.sep + "../equations",
+        "equations",
         ".meta.yaml",
         3,
     )
 
-    template = jinja_env.get_template("template.md")
-    with open("../README.md", "w", encoding="utf-8") as readme_file:
+    template = jinja_env.get_template("docs/template.md")
+    with open("README.md", "w", encoding="utf-8") as readme_file:
         readme_file.write(template.render(equation_list=list_))
 
 
 if __name__ == "__main__":
-    os.chdir(sys.path[0])
+    os.chdir(os.path.dirname(sys.path[0]))
     # print(os.path.basename(__file__) + ": running in " + os.getcwd())
     make_readme()

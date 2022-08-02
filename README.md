@@ -65,7 +65,7 @@ file: <equation-label>.tex
 title: Random equation
 info:
   requirements:
-    - name: phiso
+    - name: beamer
       type: package
     - name: Reyn
       type: command
@@ -73,9 +73,10 @@ info:
 ```
 
 requires
-the usage of the `phiso` package
+the usage of the `beamer` package
 and the definition of the `\Reyn` command
 to be integrated in a LaTeX document.
+`phiso` requirements are omitted.
 
 Each equation is labeled `eq:<equation-label>` where `<equation-label>`
 is the equation file name (omitting the `.tex` extension.)
@@ -93,24 +94,24 @@ Those sublabels are documented in the `info` section of the metadata file.
 
 #### Fluid mechanics
 
-- [HIT one-dimensional energy spectra](/home/loic/projects/latex-equations/docs/../equations/fluidmech/hit-1d-energy-spectra.eq.tex)
-- [HIT isotropy degree](/home/loic/projects/latex-equations/docs/../equations/fluidmech/hit-isotropy.eq.tex)
-- [HIT Lundgren forcing term](/home/loic/projects/latex-equations/docs/../equations/fluidmech/hit-lundgren-forcing.eq.tex)
-- [HIT two-point velocity correlation tensor](/home/loic/projects/latex-equations/docs/../equations/fluidmech/hit-two-point-velocity-correlation-tensor.eq.tex)
-- [HIT velocity spectrum tensor](/home/loic/projects/latex-equations/docs/../equations/fluidmech/hit-velocity-spectrum-tensor.eq.tex)
-- [Incompressible Navier-Stokes equations in system form](/home/loic/projects/latex-equations/docs/../equations/fluidmech/inse-sys.eq.tex)
-- [Spectral density filter from POUSSINS](/home/loic/projects/latex-equations/docs/../equations/fluidmech/poussins-filter.eq.tex)
-- [Ball-shaped initial density field from POUSSINS](/home/loic/projects/latex-equations/docs/../equations/fluidmech/poussins-init-rho-ball.eq.tex)
-- [Momentum equation from POUSSINS](/home/loic/projects/latex-equations/docs/../equations/fluidmech/poussins-ns.eq.tex)
-- [Runge-Kutta 2 scheme from POUSSINS](/home/loic/projects/latex-equations/docs/../equations/fluidmech/poussins-rk2.eq.tex)
-- [Rayleigh-Taylor instability acceleration criterion](/home/loic/projects/latex-equations/docs/../equations/fluidmech/rti-criterion.eq.tex)
-- [VDHIT kinetic energy evolution equation with forcing term](/home/loic/projects/latex-equations/docs/../equations/fluidmech/vdhit-kinetic-energy-with-forcing.eq.tex)
-- [VDHIT Lundgren forcing term extension](/home/loic/projects/latex-equations/docs/../equations/fluidmech/vdhit-lundgren-forcing-extension-terms.eq.tex)
-- [VDHIT Lundgren forcing term with production terms symbolized by a doted omega](/home/loic/projects/latex-equations/docs/../equations/fluidmech/vdhit-lundgren-forcing-omegadot-terms.eq.tex)
-- [VDHIT Lundgren forcing term](/home/loic/projects/latex-equations/docs/../equations/fluidmech/vdhit-lundgren-forcing.eq.tex)
-- [Dimensionless VDINSE in system form](/home/loic/projects/latex-equations/docs/../equations/fluidmech/vdinse-nd-sys.eq.tex)
-- [Dimensionless VDINSE](/home/loic/projects/latex-equations/docs/../equations/fluidmech/vdinse-nd.eq.tex)
-- [VDINSE in system form with Beamer alert highlight](/home/loic/projects/latex-equations/docs/../equations/fluidmech/vdinse-sys-beamer-alert.eq.tex)
-- [VDINSE in system form](/home/loic/projects/latex-equations/docs/../equations/fluidmech/vdinse-sys.eq.tex)
+- [HIT one-dimensional energy spectra](equations/fluidmech/hit-1d-energy-spectra.eq.tex)
+- [HIT isotropy degree](equations/fluidmech/hit-isotropy.eq.tex)
+- [HIT Lundgren forcing term](equations/fluidmech/hit-lundgren-forcing.eq.tex)
+- [HIT two-point velocity correlation tensor](equations/fluidmech/hit-two-point-velocity-correlation-tensor.eq.tex)
+- [HIT velocity spectrum tensor](equations/fluidmech/hit-velocity-spectrum-tensor.eq.tex)
+- [Incompressible Navier-Stokes equations in system form](equations/fluidmech/inse-sys.eq.tex)
+- [Spectral density filter from POUSSINS](equations/fluidmech/poussins-filter.eq.tex)
+- [Ball-shaped initial density field from POUSSINS](equations/fluidmech/poussins-init-rho-ball.eq.tex)
+- [Momentum equation from POUSSINS](equations/fluidmech/poussins-ns.eq.tex)
+- [Runge-Kutta 2 scheme from POUSSINS](equations/fluidmech/poussins-rk2.eq.tex)
+- [Rayleigh-Taylor instability acceleration criterion](equations/fluidmech/rti-criterion.eq.tex)
+- [VDHIT kinetic energy evolution equation with forcing term](equations/fluidmech/vdhit-kinetic-energy-with-forcing.eq.tex)
+- [VDHIT Lundgren forcing term extension](equations/fluidmech/vdhit-lundgren-forcing-extension-terms.eq.tex)
+- [VDHIT Lundgren forcing term with production terms symbolized by a doted omega](equations/fluidmech/vdhit-lundgren-forcing-omegadot-terms.eq.tex)
+- [VDHIT Lundgren forcing term](equations/fluidmech/vdhit-lundgren-forcing.eq.tex)
+- [Dimensionless VDINSE in system form](equations/fluidmech/vdinse-nd-sys.eq.tex)
+- [Dimensionless VDINSE](equations/fluidmech/vdinse-nd.eq.tex)
+- [VDINSE in system form with Beamer alert highlight](equations/fluidmech/vdinse-sys-beamer-alert.eq.tex)
+- [VDINSE in system form](equations/fluidmech/vdinse-sys.eq.tex)
 
 [phiso]: https://github.com/loicreynier/phiso
