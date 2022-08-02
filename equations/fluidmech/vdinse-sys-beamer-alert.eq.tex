@@ -1,0 +1,22 @@
+\begin{equation}\label{eq:vdinse_sys}
+\begin{cases}
+  \pdv{\vec{v}}/{t} &=
+      - (\vec{v} \cdot \nabla)\vec{v}
+      - \nabla{p} / \rho
+      + \eta\alert{/\rho} \nabla^2\vec{v}
+      \\
+      &\phantom{=} \alert{
+      + D/\rho \big(
+            (\nabla{\rho} \cdot \nabla)\vec{v}
+          + (\vec{v} \cdot \nabla)\nabla\rho
+        \big)}
+  \\
+  %%%
+  \alert{\partial\rho / \partial{t}} &\alert{=
+    - (\vec{v} \cdot \nabla)\rho
+    + D \nabla^2 \rho}
+  \\
+  %%%
+  \nabla \cdot \vec{v} &= 0
+\end{cases}
+\end{equation}

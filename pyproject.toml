@@ -1,0 +1,9 @@
+[tool.black]
+line-length = 78
+
+[tool.isort]
+force_single_line = true
+profile = "black"
+
+[tool.pylint.master]
+jobs = 0

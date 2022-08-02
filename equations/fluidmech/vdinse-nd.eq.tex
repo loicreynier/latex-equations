@@ -1,0 +1,22 @@
+\begin{subequations}\label{eq:vdinse_nd}
+\begin{align}
+    \pdv{\vec{v}}{t} + (\vec{v} \cdot \nabla)\vec{v} &=
+        - \frac{1}{\rho} \nabla{p}
+        + \frac{1}{\rho\Reyn} \nabla^2 \vec{v}
+        + \frac{1}{\rho\Reyn\Schm} \big(
+              (\nabla{\rho} \cdot \nabla)\vec{v}
+            + (\vec{v} \cdot \nabla)\nabla\rho
+          \big)
+        + \vec{f}
+    \label{eq:vdinse_nd_momentum}
+    \\
+    %%%
+    \pdv{\rho}{t} + (\vec{v} \cdot \nabla)\rho &=
+          \frac{1}{\Reyn\Schm} \nabla^2 \rho
+    \label{eq:vdinse_nd_mass}
+    \\
+    %%%
+    \nabla \cdot \vec{v} &= 0 \vphantom{\frac{1}{\Re}}
+    \label{eq:vdinse_nd_incompressibility}
+\end{align}
+\end{subequations}

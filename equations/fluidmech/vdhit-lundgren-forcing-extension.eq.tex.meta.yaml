@@ -1,0 +1,7 @@
+file: vdhit-lundgren-forcing-extension-terms.eq.tex
+title: VDHIT Lundgren forcing term extension
+info:
+  category: Physics/Fluid mechanics
+  requirements:
+    - name: beamer
+      type: package

@@ -1,0 +1,7 @@
+file: vdinse-sys-beamer-alert.eq.tex
+title: VDINSE in system form with Beamer alert highlight
+info:
+  category: Physics/Fluid mechanics
+  requirements:
+    - name: beamer
+      type: package

@@ -1,0 +1,18 @@
+\begin{subequations}\label{eq:poussins_rk2}
+\begin{align}
+  \vec{v}^{n+1} &= \vec{v}^n + \tfrac12 \upDelta{t} \left(
+      \mathcal{P}_{\kern-0.3em\rho}\left(\vec{\tilde{f}}(\vec{v}^n, \rho^n)\right)
+    + \mathcal{P}_{\kern-0.3em\rho}\left(\vec{\tilde{f}}(
+        \vec{v}^n + \upDelta{t}\vec{\tilde{f}}(\vec{v}^n, \rho^n), \rho^n
+      )\right)
+  \right)
+  \label{eq:poussins_rk2_momentum}
+  \\[1ex]
+  %%%
+  \rho^{n+1} &= \rho^n + \tfrac12 \upDelta{t} \Big(
+      g(\vec{v}^n + \rho^n)
+    + g(\vec{v}^n + \upDelta{t}g(\vec{v}^n, \rho^n))
+  \Big)
+  \label{eq:poussins_rk2_mass}
+\end{align}
+\end{subequations}
